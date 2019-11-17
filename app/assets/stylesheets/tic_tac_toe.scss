@@ -1,0 +1,40 @@
+// Place all the styles related to the TicTacToe controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+UL#game-board {
+  list-style-type: none;
+  padding: 20px 20px;
+}
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: #EEE;
+  float: left;
+
+  font-size: 48px;
+  line-height: 80px;
+  text-align: center;
+  text-transformation: uppercase;
+}
+.right-border {
+  border-right: 1px solid #000;
+}
+.bottom-border {
+  border-bottom: 1px solid #000;
+}
+.clear {
+  clear: both;
+}
+
+.blocking-move {
+  background-color: #E3B8CF;
+}
+.winning-move {
+  background-color: #D0E3B8 !important;
+}
+
+#clear-board,
+#message {
+  margin: 20px 20px;
+}

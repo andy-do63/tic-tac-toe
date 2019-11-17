@@ -1,0 +1,2 @@
+module HouseHunterHelper
+end
